@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -132,24 +132,33 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="credit.cpp" />
+    <ClCompile Include="Levelmenu.cpp" />
+    <ClCompile Include="mapwindow.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="play.cpp" />
     <ClCompile Include="select.cpp" />
-    <ClCompile Include="setting.cpp" />
     <ClCompile Include="settingmenu.cpp" />
     <ClCompile Include="settingwindow.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="singlemenu.cpp" />
     <ClCompile Include="volume.cpp" />
+    <ClCompile Include="windowLevel.cpp" />
+    <ClCompile Include="windowSinglee.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="animation.h" />
     <ClInclude Include="credit.h" />
+    <ClInclude Include="Levelmenu.h" />
+    <ClInclude Include="mapwindow.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="play.h" />
     <ClInclude Include="select.h" />
-    <ClInclude Include="setting.h" />
     <ClInclude Include="settingmenu.h" />
     <ClInclude Include="settingwindow.h" />
+    <ClInclude Include="singlemenu.h" />
     <ClInclude Include="volume.h" />
+    <ClInclude Include="windowLevel.h" />
+    <ClInclude Include="windowSinglee.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

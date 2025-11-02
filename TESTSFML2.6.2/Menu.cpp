@@ -1,10 +1,9 @@
-﻿//Vẽ các options và bấm nút lên xuống
+﻿//tạo các options và hàm lên xuống
 
 #include "Menu.h"
 
 MainMenu::MainMenu(float width, float height) {
-    if (!font.loadFromFile("fontchu/font-times-new-roman.ttf"))
-        cout << "Không tìm thấy font!" << endl;
+    font.loadFromFile("fontchu/font-times-new-roman.ttf");
 
 
     options[0].setFont(font);

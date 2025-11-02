@@ -12,7 +12,6 @@ using namespace std;
 void runSettings() {
     // Tạo cửa sổ Setting riêng
     RenderWindow Setting(VideoMode(900, 700), "Setting", Style::Default);
-
     //Load nhạc
     SoundBuffer nhac;
     nhac.loadFromFile("music/pop.mp3");
@@ -40,27 +39,44 @@ void runSettings() {
                     Setting.close(); // thoát Setting
                 }
                 else if (e.key.code == Keyboard::Up) {
-                    settingMenu.MoveUp();
+                    nhacthtsu.setVolume(gVolume);
                     nhacthtsu.play();
+                    settingMenu.MoveUp();
                     break;
                 }
                 else if (e.key.code == Keyboard::Down) {
-                    settingMenu.MoveDown();
+                    nhacthtsu.setVolume(gVolume);
                     nhacthtsu.play();
+                    settingMenu.MoveDown();
                     break;
                 }
                 else if (e.key.code == Keyboard::Return) {
+                    nhacthtsu.setVolume(gVolume);
+                    nhacthtsu.play();
                     int opt = settingMenu.MainMenuSettingPressed();
                     if (opt == 0) {
+                        Setting.setVisible(false);
                         volumesetting();
+                        Setting.setVisible(true);
+                        Setting.requestFocus();        // lấy lại focus
+                        Setting.clear();
+                        Setting.draw(bg);
+                        settingMenu.draw(Setting);
+                        Setting.display();
                     }
                     else if (opt == 1) {
+                        Setting.setVisible(false);
                         openCredit();
+                        Setting.setVisible(true);
+                        Setting.requestFocus();        
+                        Setting.clear();
+                        Setting.draw(bg);
+                        settingMenu.draw(Setting);
+                        Setting.display();
                     }
                 }
             }
         }
-
         Setting.clear(Color(20, 20, 30));
         Setting.draw(bg);
         settingMenu.draw(Setting);

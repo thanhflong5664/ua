@@ -24,9 +24,6 @@
     <ClCompile Include="play.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="setting.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="settingmenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -42,15 +39,27 @@
     <ClCompile Include="credit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Levelmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="singlemenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="windowSinglee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="windowLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mapwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="play.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="setting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="settingmenu.h">
@@ -66,6 +75,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="credit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Levelmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="singlemenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="windowSinglee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="windowLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mapwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

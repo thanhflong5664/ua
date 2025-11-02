@@ -82,7 +82,7 @@ private:
 };
 
 void volumesetting() {
-    RenderWindow VolumeSetting(VideoMode(900, 700), "Volume", Style::Default);
+    RenderWindow VolumeSetting(VideoMode(920, 720), "Volume", Style::Default);
     VolumeSetting.setFramerateLimit(120);
 
     // --- Nền ---

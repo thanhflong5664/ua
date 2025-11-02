@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\sfml\TESTSFML2.6.2\x64\Debug\TESTSFML2.6.2.exe</FullPath>
+      <FullPath>C:\clone\snakereal\ua\x64\Debug\TESTSFML2.6.2.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

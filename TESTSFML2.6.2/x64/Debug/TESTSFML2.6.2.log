@@ -1,17 +1,2 @@
-﻿  main.cpp
-C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\settingmenu.h(7,9): warning C4005: 'Max_main_menu': macro redefinition
-  (compiling source file 'main.cpp')
-      C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\Menu.h(6,9):
-      see previous definition of 'Max_main_menu'
-  
-C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\main.cpp(13,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\main.cpp(13,55): warning C4244:         with
-C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\main.cpp(13,55): warning C4244:         [
-C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\main.cpp(13,55): warning C4244:             T=unsigned int
-C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\main.cpp(13,55): warning C4244:         ]
-C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\main.cpp(13,37): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\main.cpp(13,37): warning C4244:         with
-C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\main.cpp(13,37): warning C4244:         [
-C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\main.cpp(13,37): warning C4244:             T=unsigned int
-C:\sfml\TESTSFML2.6.2\TESTSFML2.6.2\main.cpp(13,37): warning C4244:         ]
-  TESTSFML2.6.2.vcxproj -> C:\sfml\TESTSFML2.6.2\x64\Debug\TESTSFML2.6.2.exe
+﻿  credit.cpp
+  TESTSFML2.6.2.vcxproj -> C:\clone\snakereal\ua\x64\Debug\TESTSFML2.6.2.exe
