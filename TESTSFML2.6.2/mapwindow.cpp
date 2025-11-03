@@ -1,4 +1,4 @@
-﻿#include "mapwindow.h"
+#include "mapwindow.h"
 #include "volume.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
@@ -7,6 +7,12 @@ using namespace sf;
 // Ví dụ mỗi map là 1 hình ảnh khác nhau
 void ShowMap1() {
     RenderWindow MAP(VideoMode(920, 720), "Main Menu", Style::Default);
+
+    Music backgroundMusic;
+    backgroundMusic.openFromFile("music/bgingame.mp3");
+    backgroundMusic.setLoop(true);
+    backgroundMusic.setVolume(gVolume);
+    backgroundMusic.play();
 
     Texture m1;
     m1.loadFromFile("Graphics/bandothegioi.jpg");
@@ -33,6 +39,12 @@ void ShowMap1() {
 void ShowMap2() {
     RenderWindow MAP(VideoMode(900, 700), "Main Menu", Style::Default);
     
+    Music backgroundMusic;
+    backgroundMusic.openFromFile("music/bgingame.mp3");
+    backgroundMusic.setLoop(true);
+    backgroundMusic.setVolume(gVolume);
+    backgroundMusic.play();
+
     Texture m1;
     m1.loadFromFile("Graphics/bandolol.jpg");
     Sprite map1(m1);
@@ -59,6 +71,12 @@ void ShowMap2() {
 void ShowMap3() {
     RenderWindow MAP(VideoMode(900, 700), "Main Menu", Style::Default);
    
+    Music backgroundMusic;
+    backgroundMusic.openFromFile("music/bgingame.mp3");
+    backgroundMusic.setLoop(true);
+    backgroundMusic.setVolume(gVolume);
+    backgroundMusic.play();
+
     Texture m1;
     m1.loadFromFile("Graphics/bandoaov.jpg");
     Sprite map1(m1);
